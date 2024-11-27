@@ -1,0 +1,71 @@
+body {
+    background-color:black;
+  }
+  h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration-line: underline;
+  }
+  .border {
+    background-color: #202124;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 5%;
+    
+    padding: 40px;
+  }
+  .box1 {
+    border: 1px solid rgb(79, 79, 79);
+    width: 190px;
+    background-color: rgb(79, 79, 79);
+    border-radius: 10px;
+  }
+  .box11{
+    border: 2px solid green;
+    width: 190px;
+    background-color: rgb(79, 79, 79);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px green ;
+  }
+  img {
+    height: 100%;
+    width: 100%;
+    
+  }
+  .circle {
+    border: 1px solid whitesmoke;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    
+    background-color: whitesmoke;
+  }
+ .name{
+    margin-left:20PX;
+    
+    color: white;
+ }
+ .box1:hover{
+    border: 2px solid white;
+ }
+ .box11:hover{
+    border: 2px solid white;
+ }
+ svg{
+    margin-left: 160px;
+    margin-top: 3px;
+ }
+ .footer{
+    margin-top: 50px;
+    height: 70px;
+ }
+    
+    
